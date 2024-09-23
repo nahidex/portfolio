@@ -1,0 +1,80 @@
+@import "../../variables";
+.hnSelectedWorks {
+}
+
+.hnSelectedWorksHeading {
+  padding: 2rem 0;
+  border-bottom: 1px solid rgba($black, 0.1);
+}
+.hnSelectedWorksWrap {
+  width: $landingWidth;
+  margin: 0 auto;
+  h1 {
+    font-size: 112px;
+    letter-spacing: -3%;
+    span {
+      display: inline-block;
+      font-size: 36px;
+      color: rgba($black, 0.2);
+    }
+  }
+  p {
+    font-size: 36px;
+    color: rgba($black, 0.2);
+  }
+}
+
+.hnSelectedWorksItems {
+  overflow: hidden;
+  ul {
+    margin: 0;
+    padding: 0;
+    padding: 2rem 0;
+    height: 100vh;
+    width: 400vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 2rem;
+    // background: green;
+    li {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      // background: yellow;
+      .hnNumber {
+        font-size: 150px;
+        letter-spacing: -3%;
+        line-height: 1;
+        color: rgba($black, 0.08);
+        margin-top: 4rem;
+        // font-family: "plus Jakarta Sans";
+      }
+      .middileItem {
+        h6 {
+          font-size: 18px;
+        }
+        h4 {
+          font-size: 36px;
+          margin-bottom: 1rem;
+        }
+      }
+      .lastItem {
+        margin-top: 3rem;
+        .itemMeta {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          h6,
+          a {
+            font-size: 18px;
+            margin-bottom: 1rem;
+          }
+          a {
+            border-bottom: 1px solid $black;
+          }
+        }
+      }
+    }
+  }
+}
