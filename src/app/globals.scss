@@ -1,0 +1,31 @@
+@import "../variables";
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: var(--font-inter);
+    color: $black;
+}
+
+a,
+a:visited,
+a:active {
+    color: $black;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-jakarta);
+    font-weight: 500;
+}
